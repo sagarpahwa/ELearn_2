@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ithub.mda.elearn.JoinELearn"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_above="@+id/elearn_facebook_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/UserDetails">
+    </FrameLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_above="@+id/elearn_google_login_button"
+        android:id="@+id/elearn_facebook_login_button"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/common_plus_signin_btn_text_dark"
+        android:id="@+id/elearn_google_login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

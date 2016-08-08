@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ELearn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_your_elearn">YourElearn</string>
+    <string name="google_app_id">250020098851-gn4mctv1jfaubj2iqo56thfp23lnvqvv.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1694423210818862</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_with_elearn">Login With ELearn</string>
+    <string name="need_help">Need Help?</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="sign_in_with_elearn">Sign in with ELearn</string>
+    <string name="create_account">Create Account</string>
+</resources>

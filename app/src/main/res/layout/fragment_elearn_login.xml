@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.ithub.mda.elearn.ELearnLogin">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/elearn_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/inneremaillogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress|textAutoComplete"
+            android:hint="@string/email"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@id/elearn_email_id"
+        android:id="@+id/elearn_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/innerpasswordlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="@color/colorAccent"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="@string/login_with_elearn"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/elearn_login_button"
+        android:layout_below="@id/elearn_password"
+        android:textColor="@color/colorTextIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/colorLightPrimaryText"
+        android:id="@+id/textview_need_help"
+        android:layout_below="@id/elearn_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/need_help"
+        android:textSize="14sp"/>
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textview_create_a_new_account"
+        android:layout_below="@id/elearn_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
